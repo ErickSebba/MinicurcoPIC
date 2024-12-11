@@ -17,5 +17,19 @@ int main(){
     static int l = 10;
     const unsigned char m = 10;
     volatile int n = 10;
-  //  extern float o = 10.5;//error an initializer is not allowed on a local declaration of an extern variable
+    //extern float o = 10.5;//error an initializer is not allowed on a local declaration of an extern variable
+    
+    int media; //uma variável
+    int Media; //outra variável
+    int mEdIa; //uma terceira variável
+    int MEDIA; //uma quarta variável
+
+    int variavel;
+    int _variavel;
+    int vari_avel;
+    //int /variavel; //invalido
+
+    float conversao = 10.5;
+    int inteiro = (int)conversao; // inteiro = 10
+
 }
